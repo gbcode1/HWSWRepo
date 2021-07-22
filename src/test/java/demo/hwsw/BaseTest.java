@@ -30,10 +30,10 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions chromeOptions = new ChromeOptions();
-//
-//        chromeOptions.addArguments("--no-sandbox");
-//        chromeOptions.addArguments("--disable-dev-shm-usage");
-//        chromeOptions.addArguments("--headless");
+
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--headless");
 
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, 10);
