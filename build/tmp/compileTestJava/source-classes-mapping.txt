@@ -1,0 +1,6 @@
+demo/hwsw/TC2_CalculatorTest.java
+ demo.hwsw.TC2_CalculatorTest
+demo/hwsw/BaseTest.java
+ demo.hwsw.BaseTest
+demo/hwsw/TC1_OpenPage.java
+ demo.hwsw.TC1_OpenPage
